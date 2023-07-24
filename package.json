@@ -1,10 +1,10 @@
 {
   "name": "vue_miga",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Migrating Vue 2 codes to Composition API",
   "main": "release/index.js",
   "scripts": {
-    "start": "tsc && node dist/index.js",
+    "start": "tsc && node release/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },

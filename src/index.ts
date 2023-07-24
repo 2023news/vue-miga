@@ -7,13 +7,8 @@ import process from "process";
 import fs from "fs";
 import path from "path";
 
-if (require.main === module) {
-    try{  
-        main();
-    } catch (e) {
-        console.log(`ERROR: ${e}`);
-    }
-}
+main();
+
 
 function main() {
     const {projectPath, inputFilePath} = processCLIEnvironment(process);
